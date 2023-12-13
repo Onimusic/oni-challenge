@@ -16,11 +16,10 @@ Como é do seu conhecimento, nossa equipe utiliza o Django como framework no Bac
 
 ## Desafio: Gestor de Catálogo Musical
 
-Um catálogo é composto por um Artista, que possui vários Albuns que, por sua vez, podem possuir uma ou mais Faixas. Todo artista deve possuir um código único que o identifique no sistema, além de possuir outras informações básicas como nome, email e CPF. Albuns possuem código único chamado UPC que devem ser únicos e validados conforme a referência. Além disso, os albuns devem possuir uma propriedade que informe se o mesmo é um Single ou Album (Single é um Album que possui uma única Faixa e Album possui duas ou mais Faixas). Além disso, um album pode ser apenas do tipo vídeo, vídeo/áudio ou áudio.
+Um catálogo é composto por um Artista, que possui vários Albuns que, por sua vez, podem possuir uma ou mais Faixas. Todo artista deve possuir informações básicas como nome, email e CPF. Albuns possuem código único chamado UPC que devem ser únicos e validados conforme a referência. Além disso, os albuns devem possuir uma propriedade que informe se o mesmo é um Single ou Album (Single é um Album que possui uma única Faixa e Album possui duas ou mais Faixas). Além disso, um album pode ser apenas do tipo vídeo, vídeo/áudio ou áudio.
 
 ### Requisitos:
 
-- Artistas devem possuir um código único que deve ser auto gerado após o cadastro do artista utilizando os dados do mesmo.
 - O campo CPF do artista deve ser único. Não deve existir outro artista com o mesmo CPF.
 - O Album pertence a unicamente um Artista. Mas um artista pode ter vários Albuns.
 - Um Album pode ter várias Faixas mas, uma Faixa pertence apenas a um Album.
